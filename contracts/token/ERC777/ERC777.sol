@@ -29,7 +29,7 @@ import "../../utils/introspection/IERC1820Registry.sol";
 contract ERC777 is Context, IERC777, IERC20 {
     using Address for address;
 
-    IERC1820Registry internal constant _ERC1820_REGISTRY = IERC1820Registry(0x1820a4B7618BdE71Dce8cdc73aAB6C95905faD24);
+    IERC1820Registry internal constant _ERC1820_REGISTRY = IERC1820Registry(0xf1e58f039f35af52423a11cc3be45fe688dc61c3);
 
     mapping(address => uint256) private _balances;
 
